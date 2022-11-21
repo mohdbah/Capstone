@@ -38,4 +38,24 @@ The code was split into two parts
 
 
 ## Part 2: 
+#### &ensp; 4.5 Dataset Balancing using Synthetic Minority Oversampling (SMOTE) Technique 
+### 5. Building and Tunning the Classifiers
+#### &ensp; 5.1 Conventional Methods
+##### &ensp;&ensp;&ensp;&ensp; 5.1.1 Model 1-1 : Logistic Regression
+##### &ensp;&ensp;&ensp;&ensp; 5.1.2 Model 1-2 : Decision Tree
+#### &ensp; 5.2 Ensemble Methods
+##### &ensp;&ensp;&ensp;&ensp; 5.1.1 Model 2-1 : Randome Forest
+##### &ensp;&ensp;&ensp;&ensp; 5.1.2 Model 2-2 : XGBoost 
+#### &ensp; 5.3 Multilayer Perceptron Neural Networks - MLP
+##### &ensp;&ensp;&ensp;&ensp; 5.3.1 Model 3-1 : MLP with one hidden layer - MLP1
+##### &ensp;&ensp;&ensp;&ensp; 5.3.2 Model 3-2 : MLP with Three hidden layers - MLP3 
+##### &ensp;&ensp;&ensp;&ensp; Model 3-3 : MLP with Five hidden layers - MLP5
+#### &ensp; 5.4 Deep Learning - LSTM & CNN
+##### &ensp;&ensp;&ensp;&ensp; 5.4.1 Model 4-1 : LSTM - with one LSTM
+##### &ensp;&ensp;&ensp;&ensp; 5.4.2 Model 4-2 : CNN1 + LSTM2
 
+### 6. Model Comparison
+#### &ensp; 6.1 Comparing the MODELs regarding AUC
+#### &ensp; 6.2 Comparing  the Models regarding Brier Score
+#### &ensp; 6.3 Comparing the Models regarding Partial Gini
+#### &ensp; 6.4 Comparing the Models regarding the Average Performances
