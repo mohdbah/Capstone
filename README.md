@@ -12,8 +12,7 @@ The code was split into two parts
 #### 2.6 Checking if we have duplicated rows / records
 #### 2.7 Checking if we have missing and NULL Values
 
-### 3. Data Visualization: 
-#### Different data visualization techniques was applied in this step, so we can expand our knowledge on the dataset.
+### 3. Data Visualization: Different data visualization techniques was applied in this step, so we can expand our knowledge on the dataset.
 #### 3.1 Univariate Visualization
 ##### 3.1.1 Histograms of the quantitative attributes in data set under study
 ##### 3.1.2 Box plots of the quantitative attributes in the data set under study
