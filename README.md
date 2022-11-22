@@ -41,7 +41,7 @@ The code was split into two parts
 ## Part 2: 
 #### 4.5 Dataset Balancing using Synthetic Minority Oversampling (SMOTE) Technique
 ### 5. Building and Tunning the Classifiers
-<i>Various ML, ensemble, and DL models were built and tunned in this step to tackle the problem of banking institution's direct marketing strategy.</i>
+<i>Various ML, ensemble, and DL models were built and tunned in this step to tackle the problem of banking institution's direct marketing strategy. Nested Cross-Validation was used in this study to both tune and evalute the models.</i>
 #### 5.1 Conventional Methods
 ##### 5.1.1 Model 1-1 : Logistic Regression
 ##### 5.1.2 Model 1-2 : Decision Tree
