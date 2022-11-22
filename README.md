@@ -11,7 +11,6 @@ The code was split into two parts
 #### &ensp; 2.5 Checking the Class Distribution
 #### &ensp; 2.6 Checking if we have duplicated rows / records
 #### &ensp; 2.7 Checking if we have missing and NULL Values
-#### &ensp; 2.8 Checking if we have duplicated rows
 
 ### 3. Data Visualization
 #### &ensp; 3.1 Univariate Visualization
