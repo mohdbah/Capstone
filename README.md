@@ -54,8 +54,8 @@ The code was split into two parts
 ##### &ensp;&ensp;&ensp;&ensp; 5.4.1 Model 4-1 : LSTM - with one LSTM
 ##### &ensp;&ensp;&ensp;&ensp; 5.4.2 Model 4-2 : CNN1 + LSTM2
 
-### 6. Model Comparison
-#### &ensp; 6.1 Comparing the MODELs regarding AUC
-#### &ensp; 6.2 Comparing  the Models regarding Brier Score
-#### &ensp; 6.3 Comparing the Models regarding Partial Gini
-#### &ensp; 6.4 Comparing the Models regarding the Average Performances
+### 6. Model comparison using statistical analysis 
+#### &ensp; 6.1 Comparing the Models using AUC
+#### &ensp; 6.2 Comparing  the Models using Brier Score
+#### &ensp; 6.3 Comparing the Models using Partial Gini
+#### &ensp; 6.4 Comparing the Models using the Average Performances
