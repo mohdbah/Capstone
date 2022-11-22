@@ -4,11 +4,11 @@ The code was split into two parts
 ## Part 1: 
 ### 1. Loading the Dataset Under Study
 ### 2. Data Understanding
-#### &ensp; 2.1 Checking the Dimension of the dataset under study
-#### &ensp; 2.2 Checking the data types of the attributes in the data set under study
-#### &ensp; 2.3 Checking the Descriptive Statistics of all quantitative attributes in the data set under study
-#### &ensp; 2.4 Checking the Descriptive Statistics of all qualitative attributes in the data set under study 
-#### &ensp; 2.5 Checking the Class Distribution
+#### 2.1 Checking the Dimension of the dataset under study
+#### 2.2 Checking the data types of the attributes in the data set under study
+#### 2.3 Checking the Descriptive Statistics of all quantitative attributes in the data set under study
+#### 2.4 Checking the Descriptive Statistics of all qualitative attributes in the data set under study 
+#### 2.5 Checking the Class Distribution
 #### &ensp; 2.6 Checking if we have duplicated rows / records
 #### &ensp; 2.7 Checking if we have missing and NULL Values
 
