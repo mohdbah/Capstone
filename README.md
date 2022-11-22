@@ -24,7 +24,7 @@ The code was split into two parts
 
 ### 4. Data Pre-processing
 #### 4.1 Outlier Detection and Filtering & Dropping Duplicate Rows: <p> Duplicated rows that found in the dataset were deleted in this step, so our data can be more consistent and accurate. We also found that some variables are having outliers needed to be dropped. Due to its robustness to outliers, the quartile and interquartile distance method was used in this study to detect and filter outliers from original columns   <a href="https://www.sciencedirect.com/science/article/abs/pii/S235293852030639X">[Ref]</a> .</p>
-#### 4.2 Variable Preprocessing
+#### 4.2 Variable Preprocessing: <p> Encoding was used in this study, so that ML and DL algorithms can easy understands the categorical features.</p>
 ##### 4.2.1 Label-Encoding for Output Variable
 ##### 4.2.2 One-Hot Encoding for categorical features, except for education which is an ordered variable
 ###### 4.2.2.1 Ordinal Encoding for categorical ordered feature
