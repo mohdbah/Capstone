@@ -49,7 +49,7 @@ The code was split into two parts
 #### &ensp; 5.3 Multilayer Perceptron Neural Networks - MLP
 ##### &ensp;&ensp;&ensp;&ensp; 5.3.1 Model 3-1 : MLP with one hidden layer - MLP1
 ##### &ensp;&ensp;&ensp;&ensp; 5.3.2 Model 3-2 : MLP with Three hidden layers - MLP3 
-##### &ensp;&ensp;&ensp;&ensp; Model 3-3 : MLP with Five hidden layers - MLP5
+##### &ensp;&ensp;&ensp;&ensp; 5.3.3 Model 3-3 : MLP with Five hidden layers - MLP5
 #### &ensp; 5.4 Deep Learning - LSTM & CNN
 ##### &ensp;&ensp;&ensp;&ensp; 5.4.1 Model 4-1 : LSTM - with one LSTM
 ##### &ensp;&ensp;&ensp;&ensp; 5.4.2 Model 4-2 : CNN1 + LSTM2
