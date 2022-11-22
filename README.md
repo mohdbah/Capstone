@@ -14,7 +14,7 @@ The code was split into two parts
 #### 2.7 Checking if we have missing and NULL Values
 
 ### 3. Data Visualization: 
-Different data visualization techniques was applied in this step, so we can expand our knowledge on the dataset.
+<i> Different data visualization techniques was applied in this step, so we can expand our knowledge on the dataset.</i> 
 #### 3.1 Univariate Visualization
 ##### 3.1.1 Histograms of the quantitative attributes in data set under study
 ##### 3.1.2 Box plots of the quantitative attributes in the data set under study
@@ -25,7 +25,7 @@ Different data visualization techniques was applied in this step, so we can expa
 ##### 3.2.2 Bar charts by class value of qualitative attributes in the data set under study
 
 ### 4. Data Pre-processing: 
-Duplicated rows and outliers that found in the dataset under study were removed in this step, so our data can be more consistent and accurate. Due to its robustness to outliers, the quartile and interquartile distance method was used in this study to detect and filter outliers from original columns <a href="https://www.sciencedirect.com/science/article/abs/pii/S235293852030639X">[Ref 1]</a>. Encoding was also applied in this step, so that ML and DL algorithms can easy understands the categorical features. Also, Data Normalization was applied in this step to prevent any bias may occur towards features with a higher magnitude. Additionally, highly correlated features were identified and removed in this step. Moreover, SMOTE technique was applied in this step to obtain a balanced dataset, and SMOTE was chosen due to its simplicity and effectiveness<a href="https://www.sciencedirect.com/science/article/pii/S1532046416301071">[Ref 2]</a>.
+<i> Duplicated rows and outliers that found in the dataset under study were removed in this step, so our data can be more consistent and accurate. Due to its robustness to outliers, the quartile and interquartile distance method was used in this study to detect and filter outliers from original columns <a href="https://www.sciencedirect.com/science/article/abs/pii/S235293852030639X">[Ref 1]</a>. Encoding was also applied in this step, so that ML and DL algorithms can easy understands the categorical features. Also, Data Normalization was applied in this step to prevent any bias may occur towards features with a higher magnitude. Additionally, highly correlated features were identified and removed in this step. Moreover, SMOTE technique was applied in this step to obtain a balanced dataset, and SMOTE was chosen due to its simplicity and effectiveness<a href="https://www.sciencedirect.com/science/article/pii/S1532046416301071">[Ref 2]</a>.</i> 
 #### 4.1 Outlier Detection and Filtering & Dropping Duplicate Rows
 #### 4.2 Variable Preprocessing: 
 ##### 4.2.1 Label-Encoding for Output Variable
@@ -41,7 +41,7 @@ Duplicated rows and outliers that found in the dataset under study were removed 
 ## Part 2: 
 #### 4.5 Dataset Balancing using Synthetic Minority Oversampling (SMOTE) Technique
 ### 5. Building and Tunning the Classifiers
-Various ML, ensemble, and DL models were built and tunned in this step to tackle the problem of banking institution's direct marketing strategy.
+<i>Various ML, ensemble, and DL models were built and tunned in this step to tackle the problem of banking institution's direct marketing strategy.</i>
 #### 5.1 Conventional Methods
 ##### 5.1.1 Model 1-1 : Logistic Regression
 ##### 5.1.2 Model 1-2 : Decision Tree
@@ -57,7 +57,7 @@ Various ML, ensemble, and DL models were built and tunned in this step to tackle
 ##### 5.4.2 Model 4-2 : CNN1 + LSTM2
 
 ### 6. Model comparison using statistical analysis 
-Several performance metrics including Statistical significance tests will be considered in this stage for analyzing and comparing the performance of the considered classification approaches, so we could have more trustable and reliable analyzing and comparing.
+<i>Several performance metrics including Statistical significance tests will be considered in this stage for analyzing and comparing the performance of the considered classification approaches, so we could have more trustable and reliable analyzing and comparing.</i>
 #### 6.1 Comparing the Models using AUC
 #### 6.2 Comparing  the Models using Brier Score
 #### 6.3 Comparing the Models using Partial Gini
