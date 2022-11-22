@@ -3,7 +3,7 @@ The code was split into two parts
 <br>
 ## Part 1: 
 ### 1. Loading the Dataset Under Study
-### 2. Data Understanding: <h3> A general overview on the data set under study was provided in this step.</h3>
+### 2. Data Understanding: A general overview on the data set under study was provided in this step.
 #### 2.1 Checking the Dimension of the dataset under study
 #### 2.2 Checking the data types of the attributes in the data set under study
 #### 2.3 Checking the Descriptive Statistics of all quantitative attributes in the data set under study
@@ -22,8 +22,7 @@ The code was split into two parts
 ##### 3.2.1 Histograms by class value of quantitative attributes
 ##### 3.2.2 Bar charts by class value of qualitative attributes in the data set under study
 
-### 4. Data Pre-processing
-#### Duplicated rows and outliers that found in the dataset were removed in this step, so our data can be more consistent and accurate. Due to its robustness to outliers, the quartile and interquartile distance method was used in this study to detect and filter outliers from original columns <a href="https://www.sciencedirect.com/science/article/abs/pii/S235293852030639X">[Ref]</a>. Encoding was also applied in this step, so that ML and DL algorithms can easy understands the categorical features. Also, Data Normalization was applied in this step to prevent any bias may occur towards features with a higher magnitude. Additionally, highly correlated features were identified and removed in this step.
+### 4. Data Pre-processing: Duplicated rows and outliers that found in the dataset were removed in this step, so our data can be more consistent and accurate. Due to its robustness to outliers, the quartile and interquartile distance method was used in this study to detect and filter outliers from original columns <a href="https://www.sciencedirect.com/science/article/abs/pii/S235293852030639X">[Ref]</a>. Encoding was also applied in this step, so that ML and DL algorithms can easy understands the categorical features. Also, Data Normalization was applied in this step to prevent any bias may occur towards features with a higher magnitude. Additionally, highly correlated features were identified and removed in this step. Moreover, SMOTE technique was applied in this step to obtain a balanced dataset, and its was chosen due to its simplicity and effectiveness<a href="https://www.sciencedirect.com/science/article/pii/S1532046416301071">[Ref]</a>.
 #### 4.1 Outlier Detection and Filtering & Dropping Duplicate Rows
 #### 4.2 Variable Preprocessing: 
 ##### 4.2.1 Label-Encoding for Output Variable
@@ -36,9 +35,8 @@ The code was split into two parts
 ##### 4.4.1 Correlation Map between Variables
 ##### 4.4.1 MultiCollinearity Checking
 
-
 ## Part 2: 
-#### 4.5 Dataset Balancing using Synthetic Minority Oversampling (SMOTE) Technique: <p> SMOTE technique was applied in this step to obtain a balanced dataset, and its was chosen due to its simplicity and effectiveness<a href="https://www.sciencedirect.com/science/article/pii/S1532046416301071">[Ref]</a>.</p> 
+#### 4.5 Dataset Balancing using Synthetic Minority Oversampling (SMOTE) Technique
 ### 5. Building and Tunning the Classifiers
 #### 5.1 Conventional Methods
 ##### 5.1.1 Model 1-1 : Logistic Regression
