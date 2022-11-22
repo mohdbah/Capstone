@@ -25,7 +25,7 @@ Different data visualization techniques was applied in this step, so we can expa
 ##### 3.2.2 Bar charts by class value of qualitative attributes in the data set under study
 
 ### 4. Data Pre-processing: 
-Duplicated rows and outliers that found in the dataset were removed in this step, so our data can be more consistent and accurate. Due to its robustness to outliers, the quartile and interquartile distance method was used in this study to detect and filter outliers from original columns <a href="https://www.sciencedirect.com/science/article/abs/pii/S235293852030639X">[Ref]</a>. Encoding was also applied in this step, so that ML and DL algorithms can easy understands the categorical features. Also, Data Normalization was applied in this step to prevent any bias may occur towards features with a higher magnitude. Additionally, highly correlated features were identified and removed in this step. Moreover, SMOTE technique was applied in this step to obtain a balanced dataset, and its was chosen due to its simplicity and effectiveness<a href="https://www.sciencedirect.com/science/article/pii/S1532046416301071">[Ref]</a>.
+Duplicated rows and outliers that found in the dataset under study were removed in this step, so our data can be more consistent and accurate. Due to its robustness to outliers, the quartile and interquartile distance method was used in this study to detect and filter outliers from original columns <a href="https://www.sciencedirect.com/science/article/abs/pii/S235293852030639X">[Ref 1]</a>. Encoding was also applied in this step, so that ML and DL algorithms can easy understands the categorical features. Also, Data Normalization was applied in this step to prevent any bias may occur towards features with a higher magnitude. Additionally, highly correlated features were identified and removed in this step. Moreover, SMOTE technique was applied in this step to obtain a balanced dataset, and SMOTE was chosen due to its simplicity and effectiveness<a href="https://www.sciencedirect.com/science/article/pii/S1532046416301071">[Ref 2]</a>.
 #### 4.1 Outlier Detection and Filtering & Dropping Duplicate Rows
 #### 4.2 Variable Preprocessing: 
 ##### 4.2.1 Label-Encoding for Output Variable
@@ -41,7 +41,7 @@ Duplicated rows and outliers that found in the dataset were removed in this step
 ## Part 2: 
 #### 4.5 Dataset Balancing using Synthetic Minority Oversampling (SMOTE) Technique
 ### 5. Building and Tunning the Classifiers
-Various ML, ensemble, and DL models were built in this stepto tackle the problem of banking institution's direct marketing strategy.
+Various ML, ensemble, and DL models were built and tunned in this step to tackle the problem of banking institution's direct marketing strategy.
 #### 5.1 Conventional Methods
 ##### 5.1.1 Model 1-1 : Logistic Regression
 ##### 5.1.2 Model 1-2 : Decision Tree
