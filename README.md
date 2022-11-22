@@ -3,7 +3,8 @@ The code was split into two parts
 <br>
 ## Part 1: 
 ### 1. Loading the Dataset Under Study
-### 2. Data Understanding:####A general overview on the data set under study was provided in this step.
+### 2. Data Understanding
+#### A general overview on the data set under study was provided in this step.
 #### 2.1 Checking the Dimension of the dataset under study
 #### 2.2 Checking the data types of the attributes in the data set under study
 #### 2.3 Checking the Descriptive Statistics of all quantitative attributes in the data set under study
@@ -12,7 +13,8 @@ The code was split into two parts
 #### 2.6 Checking if we have duplicated rows / records
 #### 2.7 Checking if we have missing and NULL Values
 
-### 3. Data Visualization: <p>Different data visualization techniques was applied in this step, so we can let's expand our knowledge on the dataset.</p>
+### 3. Data Visualization: 
+#### Different data visualization techniques was applied in this step, so we can let's expand our knowledge on the dataset.
 #### 3.1 Univariate Visualization
 ##### 3.1.1 Histograms of the quantitative attributes in data set under study
 ##### 3.1.2 Box plots of the quantitative attributes in the data set under study
