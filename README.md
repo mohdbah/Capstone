@@ -4,7 +4,7 @@ The code was split into two parts
 ## Part 1: 
 ### 1. Loading the Dataset Under Study
 ### 2. Data Understanding: 
-A general overview on the data set under study was provided in this step.
+<i> A general overview on the data set under study was provided in this step.</i>
 #### 2.1 Checking the Dimension of the dataset under study
 #### 2.2 Checking the data types of the attributes in the data set under study
 #### 2.3 Checking the Descriptive Statistics of all quantitative attributes in the data set under study
