@@ -3,7 +3,7 @@ The code was split into two parts
 <br>
 ## Part 1: 
 ### 1. Loading the Dataset Under Study
-### 2. Data Understanding
+### 2. Data Understanding: <p>A general overview on the data set under study was provided in this step.</p>
 #### 2.1 Checking the Dimension of the dataset under study
 #### 2.2 Checking the data types of the attributes in the data set under study
 #### 2.3 Checking the Descriptive Statistics of all quantitative attributes in the data set under study
@@ -12,7 +12,7 @@ The code was split into two parts
 #### 2.6 Checking if we have duplicated rows / records
 #### 2.7 Checking if we have missing and NULL Values
 
-### 3. Data Visualization
+### 3. Data Visualization: <p>Different data visualization techniques was applied in this step, so we can let's expand our knowledge on the dataset.</p>
 #### 3.1 Univariate Visualization
 ##### 3.1.1 Histograms of the quantitative attributes in data set under study
 ##### 3.1.2 Box plots of the quantitative attributes in the data set under study
@@ -23,7 +23,7 @@ The code was split into two parts
 ##### 3.2.2 Bar charts by class value of qualitative attributes in the data set under study
 
 ### 4. Data Pre-processing
-#### 4.1 Outlier Detection and Filtering & Dropping Duplicate Rows: <p> Duplicated rows that found in the dataset were deleted in this step, so our data can be more consistent and accurate. We also found that some variables are having outliers needed to be dropped. Due to its robustness to outliers, the quartile and interquartile distance method was used in this study to detect and filter outliers from original columns   <a href="https://www.sciencedirect.com/science/article/abs/pii/S235293852030639X">[Ref]</a> .</p>
+#### 4.1 Outlier Detection and Filtering & Dropping Duplicate Rows: <p> Duplicated rows that found in the dataset were deleted in this step, so our data can be more consistent and accurate. We also found that some variables are having outliers needed to be dropped. Due to its robustness to outliers, the quartile and interquartile distance method was used in this study to detect and filter outliers from original columns   <a href="https://www.sciencedirect.com/science/article/abs/pii/S235293852030639X">[Ref]</a>.</p>
 #### 4.2 Variable Preprocessing: <p> Encoding was applied in this step, so that ML and DL algorithms can easy understands the categorical features.</p>
 ##### 4.2.1 Label-Encoding for Output Variable
 ##### 4.2.2 One-Hot Encoding for categorical features, except for education which is an ordered variable
@@ -37,7 +37,7 @@ The code was split into two parts
 
 
 ## Part 2: 
-#### 4.5 Dataset Balancing using Synthetic Minority Oversampling (SMOTE) Technique 
+#### 4.5 Dataset Balancing using Synthetic Minority Oversampling (SMOTE) Technique: <p> SMOTE technique was applied in this step to obtain a balanced dataset, and its was chosen due to its simplicity and effectiveness<a href="https://www.sciencedirect.com/science/article/pii/S1532046416301071">[Ref]</a>.</p> 
 ### 5. Building and Tunning the Classifiers
 #### 5.1 Conventional Methods
 ##### 5.1.1 Model 1-1 : Logistic Regression
