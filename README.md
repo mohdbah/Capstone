@@ -23,8 +23,7 @@ The code was split into two parts
 ##### &ensp;&ensp;&ensp;&ensp; 3.2.2 Bar charts by class value of qualitative attributes in the data set under study
 
 ### 4. Data Pre-processing
-#### &ensp; 4.1 Outlier Detection and Filtering & Dropping Duplicate Rows
-#### &ensp; Duplicated rows found in the dataset were deleted in this step, so our data can be more consistent and accurate
+#### &ensp; 4.1 Outlier Detection and Filtering & Dropping Duplicate Rows: Duplicated rows found in the dataset were deleted in this step, so our data can be more consistent and accurate
 #### &ensp; 4.2 Variable Preprocessing
 ##### &ensp;&ensp;&ensp;&ensp; 4.2.1 Label-Encoding for Output Variable
 ##### &ensp;&ensp;&ensp;&ensp; 4.2.2 One-Hot Encoding for categorical features, except for education which is an ordered variable
