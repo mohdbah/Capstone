@@ -59,6 +59,6 @@ The code was split into two parts
 ### 6. Model comparison using statistical analysis 
 <i>Several performance metrics including Statistical significance tests will be considered in this stage for analyzing and comparing the performance of the considered classification approaches, so we could have more trustable and reliable analyzing and comparing.</i>
 #### 6.1 Comparing the Models using AUC
-#### 6.2 Comparing  the Models using Brier Score
-#### 6.3 Comparing the Models using Partial Gini
-#### 6.4 Comparing the Models using the Average Performances
+#### 6.2 Comparing  the Models using Accuracy
+#### 6.3 Comparing the Models using F1-Score
+#### 6.4 Comparing the Models using the Average Performance
