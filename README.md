@@ -58,7 +58,10 @@ The code was split into two parts
 
 ### 6. Model comparison using statistical analysis 
 <i>Several performance metrics including Statistical significance tests will be considered in this stage for analyzing and comparing the performance of the considered classification approaches, so we could have more trustable and reliable analyzing and comparing.</i>
-#### 6.1 Comparing the Models using AUC
-#### 6.2 Comparing  the Models using Accuracy
-#### 6.3 Comparing the Models using F1-Score
-#### 6.4 Comparing the Models using the Average Performance
+#### 6.1 Evaluating the Performance using AUC Measure
+#### 6.2 Evaluating the Performance using Accuracy Measure
+#### 6.3 Evaluating the Performance using F1-Score Measure
+#### 6.4 Evaluating the Performance using Precision
+#### 6.5 Evaluating the Performance using Recal
+#### 6.6 Summary on Performance Evaluating
+
